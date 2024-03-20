@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Compute MN chromatin features (H3K27ac, H3K4me1, H3K4me3, ATAC) of variants (required by predict.py).
-Modified from https://github.com/FunctionLab/ExPecto
+Adapted from https://github.com/FunctionLab/ExPecto
 Example:
         $ python chromatin.py data/example.vcf data/example_feat.h5
 """
