@@ -18,8 +18,8 @@ The code has been tested with Python 3.9.5 and PyTorch 1.8.1. GPU is the default
 ## 2. Precomputed variant scores
 Precomputed variant effect scores used in our manuscript [3] can be downloaded at https://doi.org/10.6084/m9.figshare.25444534.
 ## 3. References
-[1] Zhou, J. et al. Deep learning sequence-based ab initio prediction of variant effects on expression and disease risk. Nat Genet 50, 1171–1179 (2018).
+[1] Zhou, J. et al. Deep learning sequence-based ab initio prediction of variant effects on expression and disease risk. *Nat Genet* **50**, 1171–1179 (2018).
 
-[2] Zhang, S. et al. Genome-wide identification of the genetic basis of amyotrophic lateral sclerosis. Neuron 110, 992–1008.e11 (2022).
+[2] Zhang, S. et al. Genome-wide identification of the genetic basis of amyotrophic lateral sclerosis. *Neuron* **110**, 992–1008.e11 (2022).
 
 [3] Zhang, S. et al. 
