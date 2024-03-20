@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Predict noncoding variant effect based on pretrained NeuroNet model.
 Example:
-        $ python predict.py output.h5 input.vcf var_output.txt
+        $ python predict.py data/example_feat.h5 data/example.vcf data/example_effect.txt
 """
 import argparse
 import h5py
