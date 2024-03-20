@@ -22,4 +22,4 @@ Precomputed variant effect scores used in our manuscript [3] can be downloaded a
 
 [2] Zhang, S. et al. Genome-wide identification of the genetic basis of amyotrophic lateral sclerosis. *Neuron* **110**, 992–1008.e11 (2022).
 
-[3] Zhang, S. et al. 
+[3] Zhang, S. et al. Deep learning modeling of rare noncoding genetic variants in motor neurons defines *CCDC146* as a therapeutic target for ALS. *bioRxiv* (2024).
