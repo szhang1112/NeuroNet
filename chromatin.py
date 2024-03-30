@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Compute MN chromatin features (H3K27ac, H3K4me1, H3K4me3, ATAC) of variants (required by predict.py).
+"""Compute motor neuron chromatin features (H3K27ac, H3K4me1, H3K4me3, ATAC) for variants (required by predict.py).
 Adapted from https://github.com/FunctionLab/ExPecto
 Example:
         $ python chromatin.py data/example.vcf data/example_feat.h5
