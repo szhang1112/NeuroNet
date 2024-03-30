@@ -14,7 +14,7 @@ To use NeuroNet to predict variant effect for your own data, please follow these
    ```
    python predict.py your_own_feat.h5 your_own.vcf your_own_output.txt
    ```
-The code has been tested with Python 3.9.5 and PyTorch 1.8.1. GPU is the default setting.
+The code has been tested with Python 3.9.5 and PyTorch 1.8.1, and in GPU mode.
 ## 2. Precomputed variant scores
 Precomputed variant effect scores used in our manuscript [3] can be downloaded at https://doi.org/10.6084/m9.figshare.25444534.
 ## 3. References
