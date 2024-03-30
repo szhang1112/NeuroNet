@@ -1,11 +1,11 @@
 # NeuroNet: A genomic deep learning model for predicting noncoding variant effect in human motor neurons
-NeuroNet is a sequence-based deep learning model which predicts the variant effect on altering epigenomic features (chromatin accessibility and histone marks) in human motor neurons (MNs). NeuroNet follows the Beluga architecture [1] and it was trained based on the MN epigenomic profiling generated in our previous study [2]. More details can be found in our manuscript [3]. Part of our code was adapted from https://github.com/FunctionLab/ExPecto.
+NeuroNet is a sequence-based deep learning model that predicts the variant effect on epigenomic features (chromatin accessibility and histone marks) in human motor neurons (MNs). NeuroNet follows the Beluga architecture [1] and it was trained based on the MN epigenomic profiling data generated in our previous study [2]. More details can be found in our manuscript [3]. Part of our code was adapted from https://github.com/FunctionLab/ExPecto.
 ## 1. How to use NeuroNet?
 To use NeuroNet to predict variant effect for your own data, please follow these steps:
 
-1. Download the pretrained NeuroNet model from https://doi.org/10.6084/m9.figshare.25444534 and put it in ./model/.
+1. Download the pretrained NeuroNet model from https://doi.org/10.6084/m9.figshare.25444534 and copy it to ./model/.
 2. Download the reference genome file (hg19.fa) to ./data/.
-3. Create your own variant file (hg19) following the format of ./data/example.vcf.
+3. Create your own variant file (hg19) following the example format (./data/example.vcf).
 4. Predict epigenomic features by running
    ```
    python chromatin.py your_own.vcf your_own_feat.h5
